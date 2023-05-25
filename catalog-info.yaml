@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-quarkus-stp-janus
+  description: la mejor app
+  annotations:
+    backstage.io/kubernetes-id: test-quarkus-stp-janus
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: fmenesesg/test-quarkus-stp-janus
+spec:
+  type: api
+  system: system:examples
+  lifecycle: production
+  owner: group:janus-authors
